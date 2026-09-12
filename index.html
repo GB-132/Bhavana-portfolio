@@ -1,0 +1,695 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bhavana Gattu | DevOps Engineer</title>
+
+  <meta name="description"
+        content="Bhavana Gattu - DevOps Engineer skilled in AWS, Docker, Terraform, Jenkins, Kubernetes, Linux and CI/CD.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            "fade-in": "fadeIn 0.8s ease-out"
+          },
+          keyframes: {
+            fadeIn: {
+              "0%": { opacity: "0", transform: "translateY(20px)" },
+              "100%": { opacity: "1", transform: "translateY(0)" }
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-950 text-slate-200">
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <a href="#home" class="text-xl font-bold text-white">
+        Bhavana<span class="text-cyan-400">.</span>
+      </a>
+
+      <div class="hidden md:flex gap-7 text-sm">
+        <a href="#about" class="hover:text-cyan-400 transition">About</a>
+        <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+        <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+        <a href="#certifications" class="hover:text-cyan-400 transition">Certifications</a>
+        <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+      </div>
+
+      <a href="#contact"
+         class="hidden md:block bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-4 py-2 rounded-lg transition">
+        Let's Connect
+      </a>
+    </div>
+  </nav>
+
+
+  <!-- ================= HERO ================= -->
+  <section id="home"
+           class="min-h-screen flex items-center justify-center px-6 pt-24
+                  bg-gradient-to-br from-slate-950 via-slate-900 to-cyan-950">
+
+    <div class="max-w-5xl mx-auto text-center animate-fade-in">
+
+      <p class="text-cyan-400 font-semibold tracking-widest uppercase text-sm mb-4">
+        DevOps Engineer
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight">
+        Bhavana Gattu
+      </h1>
+
+      <p class="mt-6 text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto">
+        Building reliable infrastructure, automated deployments
+        and scalable cloud environments.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 mt-8">
+        <span class="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
+          AWS
+        </span>
+
+        <span class="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
+          Docker
+        </span>
+
+        <span class="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
+          Terraform
+        </span>
+
+        <span class="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
+          Jenkins
+        </span>
+
+        <span class="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
+          Kubernetes
+        </span>
+
+        <span class="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
+          Linux
+        </span>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-4 mt-10">
+
+        <a href="#projects"
+           class="bg-cyan-500 hover:bg-cyan-400 text-slate-950
+                  font-bold px-7 py-3 rounded-lg transition">
+          View Projects
+        </a>
+
+        <a href="#contact"
+           class="border border-slate-600 hover:border-cyan-400
+                  px-7 py-3 rounded-lg transition">
+          Contact Me
+        </a>
+
+      </div>
+
+      <p class="mt-8 text-sm text-slate-400">
+        Open to Junior DevOps / Cloud / DevOps Engineer opportunities
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="py-24 px-6 bg-slate-900">
+
+    <div class="max-w-5xl mx-auto">
+
+      <div class="text-center mb-12">
+        <p class="text-cyan-400 font-semibold">ABOUT ME</p>
+
+        <h2 class="text-4xl font-bold text-white mt-2">
+          DevOps & Cloud Enthusiast
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+
+        <div>
+          <p class="text-slate-300 leading-8">
+            I am a DevOps-focused professional with hands-on experience
+            working with AWS, Linux, Git, Docker, Jenkins, Terraform,
+            Kubernetes and CI/CD concepts.
+          </p>
+
+          <p class="text-slate-300 leading-8 mt-5">
+            I bring around 4 years of professional experience at Cognizant,
+            where I worked in data operations and process environments,
+            with responsibilities involving quality, process execution,
+            documentation, issue identification and team coordination.
+          </p>
+
+          <p class="text-slate-300 leading-8 mt-5">
+            I am now focused on transitioning my technical skills into
+            DevOps and Cloud Engineering roles through hands-on projects,
+            automation and continuous learning.
+          </p>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-8">
+
+          <h3 class="text-xl font-semibold text-white mb-6">
+            What I Bring
+          </h3>
+
+          <ul class="space-y-4 text-slate-300">
+
+            <li class="flex gap-3">
+              <span class="text-cyan-400">✓</span>
+              AWS cloud fundamentals
+            </li>
+
+            <li class="flex gap-3">
+              <span class="text-cyan-400">✓</span>
+              Infrastructure as Code with Terraform
+            </li>
+
+            <li class="flex gap-3">
+              <span class="text-cyan-400">✓</span>
+              Docker containerization
+            </li>
+
+            <li class="flex gap-3">
+              <span class="text-cyan-400">✓</span>
+              Jenkins CI/CD automation
+            </li>
+
+            <li class="flex gap-3">
+              <span class="text-cyan-400">✓</span>
+              Linux and Bash fundamentals
+            </li>
+
+            <li class="flex gap-3">
+              <span class="text-cyan-400">✓</span>
+              Python scripting
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="py-24 px-6 bg-slate-950">
+
+    <div class="max-w-6xl mx-auto">
+
+      <div class="text-center mb-12">
+        <p class="text-cyan-400 font-semibold">TECHNICAL SKILLS</p>
+
+        <h2 class="text-4xl font-bold text-white mt-2">
+          Tools & Technologies
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- AWS -->
+        <div class="p-7 rounded-2xl bg-slate-900 border border-slate-800
+                    hover:border-cyan-500 transition">
+
+          <div class="text-3xl mb-4">☁️</div>
+
+          <h3 class="text-xl font-bold text-white">
+            Cloud
+          </h3>
+
+          <p class="mt-3 text-slate-400">
+            AWS, EC2, S3, IAM, VPC, CloudWatch
+          </p>
+
+        </div>
+
+
+        <!-- CI/CD -->
+        <div class="p-7 rounded-2xl bg-slate-900 border border-slate-800
+                    hover:border-cyan-500 transition">
+
+          <div class="text-3xl mb-4">🔄</div>
+
+          <h3 class="text-xl font-bold text-white">
+            CI/CD
+          </h3>
+
+          <p class="mt-3 text-slate-400">
+            Git, GitHub, Jenkins, GitHub Actions
+          </p>
+
+        </div>
+
+
+        <!-- Containers -->
+        <div class="p-7 rounded-2xl bg-slate-900 border border-slate-800
+                    hover:border-cyan-500 transition">
+
+          <div class="text-3xl mb-4">🐳</div>
+
+          <h3 class="text-xl font-bold text-white">
+            Containers
+          </h3>
+
+          <p class="mt-3 text-slate-400">
+            Docker, Docker Hub, Kubernetes
+          </p>
+
+        </div>
+
+
+        <!-- IaC -->
+        <div class="p-7 rounded-2xl bg-slate-900 border border-slate-800
+                    hover:border-cyan-500 transition">
+
+          <div class="text-3xl mb-4">🏗️</div>
+
+          <h3 class="text-xl font-bold text-white">
+            Infrastructure as Code
+          </h3>
+
+          <p class="mt-3 text-slate-400">
+            Terraform, variables, modules and reusable infrastructure
+          </p>
+
+        </div>
+
+
+        <!-- Linux -->
+        <div class="p-7 rounded-2xl bg-slate-900 border border-slate-800
+                    hover:border-cyan-500 transition">
+
+          <div class="text-3xl mb-4">🐧</div>
+
+          <h3 class="text-xl font-bold text-white">
+            Linux
+          </h3>
+
+          <p class="mt-3 text-slate-400">
+            Linux administration, Bash, Shell commands and troubleshooting
+          </p>
+
+        </div>
+
+
+        <!-- Programming -->
+        <div class="p-7 rounded-2xl bg-slate-900 border border-slate-800
+                    hover:border-cyan-500 transition">
+
+          <div class="text-3xl mb-4">💻</div>
+
+          <h3 class="text-xl font-bold text-white">
+            Programming
+          </h3>
+
+          <p class="mt-3 text-slate-400">
+            Python, Bash, Shell scripting
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="py-24 px-6 bg-slate-900">
+
+    <div class="max-w-6xl mx-auto">
+
+      <div class="text-center mb-12">
+
+        <p class="text-cyan-400 font-semibold">
+          HANDS-ON WORK
+        </p>
+
+        <h2 class="text-4xl font-bold text-white mt-2">
+          DevOps Projects
+        </h2>
+
+        <p class="text-slate-400 mt-4">
+          Practical projects demonstrating automation, cloud infrastructure
+          and CI/CD concepts.
+        </p>
+
+      </div>
+
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+
+        <!-- PROJECT 1 -->
+        <div class="bg-slate-950 border border-slate-800
+                    rounded-2xl p-8 hover:border-cyan-500 transition">
+
+          <div class="flex justify-between items-start">
+
+            <div class="text-4xl">
+              🔄
+            </div>
+
+            <span class="text-xs px-3 py-1 rounded-full
+                         bg-cyan-950 text-cyan-400">
+              CI/CD
+            </span>
+
+          </div>
+
+          <h3 class="text-2xl font-bold text-white mt-5">
+            Jenkins CI/CD Pipeline with Docker
+          </h3>
+
+          <p class="text-slate-400 mt-4 leading-7">
+            Built a CI/CD workflow integrating GitHub, Jenkins, Python,
+            Docker and automated testing. The pipeline demonstrates source
+            code checkout, dependency installation, testing, Docker image
+            creation and container-based deployment workflow.
+          </p>
+
+          <div class="flex flex-wrap gap-2 mt-6">
+
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">Jenkins</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">Docker</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">GitHub</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">Python</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">Pytest</span>
+
+          </div>
+
+          <!-- Replace # with your repository URL -->
+          <a href="#"
+             target="_blank"
+             class="inline-block mt-7 text-cyan-400
+                    hover:text-cyan-300 font-semibold">
+            View on GitHub →
+          </a>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+        <div class="bg-slate-950 border border-slate-800
+                    rounded-2xl p-8 hover:border-cyan-500 transition">
+
+          <div class="flex justify-between items-start">
+
+            <div class="text-4xl">
+              ☁️
+            </div>
+
+            <span class="text-xs px-3 py-1 rounded-full
+                         bg-cyan-950 text-cyan-400">
+              AWS + IaC
+            </span>
+
+          </div>
+
+          <h3 class="text-2xl font-bold text-white mt-5">
+            AWS Infrastructure Automation with Terraform
+          </h3>
+
+          <p class="text-slate-400 mt-4 leading-7">
+            Designed Terraform configuration to automate AWS infrastructure,
+            including VPC networking, subnets, security groups, IAM and EC2
+            resources. The project focuses on reusable configuration,
+            variables and infrastructure lifecycle management.
+          </p>
+
+          <div class="flex flex-wrap gap-2 mt-6">
+
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">AWS</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">Terraform</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">EC2</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">VPC</span>
+            <span class="px-3 py-1 bg-slate-800 rounded text-sm">IAM</span>
+
+          </div>
+
+          <!-- Replace # with your repository URL -->
+          <a href="#"
+             target="_blank"
+             class="inline-block mt-7 text-cyan-400
+                    hover:text-cyan-300 font-semibold">
+            View on GitHub →
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" class="py-24 px-6 bg-slate-950">
+
+    <div class="max-w-4xl mx-auto">
+
+      <div class="text-center mb-12">
+
+        <p class="text-cyan-400 font-semibold">
+          PROFESSIONAL EXPERIENCE
+        </p>
+
+        <h2 class="text-4xl font-bold text-white mt-2">
+          Experience
+        </h2>
+
+      </div>
+
+
+      <div class="relative border-l border-slate-700 ml-4 pl-8">
+
+        <div class="absolute -left-2 top-0 w-4 h-4
+                    bg-cyan-400 rounded-full">
+        </div>
+
+        <h3 class="text-2xl font-bold text-white">
+          Senior Process Executive – Data
+        </h3>
+
+        <p class="text-cyan-400 mt-2 font-medium">
+          Cognizant Technology Solutions
+        </p>
+
+        <p class="text-slate-500 mt-1">
+          Hyderabad | Jul 2021 – Jul 2025
+        </p>
+
+        <ul class="mt-6 space-y-4 text-slate-300">
+
+          <li class="flex gap-3">
+            <span class="text-cyan-400">▸</span>
+            Worked in production-oriented data operations and process
+            execution environments.
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-cyan-400">▸</span>
+            Performed data validation and quality checks while following
+            defined operational guidelines.
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-cyan-400">▸</span>
+            Identified and escalated anomalies and process issues for
+            timely resolution.
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-cyan-400">▸</span>
+            Created SOPs, process documentation and operational
+            runbooks to standardize execution.
+          </li>
+
+          <li class="flex gap-3">
+            <span class="text-cyan-400">▸</span>
+            Collaborated with team members and stakeholders to improve
+            workflow execution and quality.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CERTIFICATIONS ================= -->
+  <section id="certifications" class="py-24 px-6 bg-slate-900">
+
+    <div class="max-w-5xl mx-auto">
+
+      <div class="text-center mb-12">
+
+        <p class="text-cyan-400 font-semibold">
+          LEARNING
+        </p>
+
+        <h2 class="text-4xl font-bold text-white mt-2">
+          Certifications & Training
+        </h2>
+
+      </div>
+
+
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <div class="bg-slate-950 border border-slate-800
+                    rounded-2xl p-7">
+
+          <div class="text-3xl mb-4">☁️</div>
+
+          <h3 class="text-xl font-bold text-white">
+            AWS Cloud Fundamentals
+          </h3>
+
+          <p class="text-slate-400 mt-2">
+            Internship Studio · 2026
+          </p>
+
+        </div>
+
+
+        <div class="bg-slate-950 border border-slate-800
+                    rounded-2xl p-7">
+
+          <div class="text-3xl mb-4">🐍</div>
+
+          <h3 class="text-xl font-bold text-white">
+            Python for Everybody
+          </h3>
+
+          <p class="text-slate-400 mt-2">
+            Coursera · 2025
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact"
+           class="py-24 px-6 bg-gradient-to-br
+                  from-cyan-950 to-slate-950">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+      <p class="text-cyan-400 font-semibold">
+        GET IN TOUCH
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold text-white mt-3">
+        Let's Build Something
+      </h2>
+
+      <p class="text-slate-300 mt-5 max-w-2xl mx-auto">
+        I am currently exploring Junior DevOps, Cloud and DevOps Engineer
+        opportunities. Feel free to connect with me regarding relevant
+        opportunities or collaborations.
+      </p>
+
+
+      <div class="flex flex-wrap justify-center gap-4 mt-10">
+
+        <a href="https://www.linkedin.com/in/gattu-bhavana-2a99a61a2/"
+           target="_blank"
+           class="bg-cyan-500 hover:bg-cyan-400
+                  text-slate-950 font-bold px-6 py-3 rounded-lg transition">
+          LinkedIn
+        </a>
+
+
+        <a href="https://github.com/GB-132"
+           target="_blank"
+           class="border border-slate-600 hover:border-cyan-400
+                  px-6 py-3 rounded-lg transition">
+          GitHub
+        </a>
+
+
+        <a href="mailto:gattubhavana2025@gmail.com"
+           class="border border-slate-600 hover:border-cyan-400
+                  px-6 py-3 rounded-lg transition">
+          Email Me
+        </a>
+
+      </div>
+
+
+      <p class="mt-8 text-slate-400">
+        📧 gattubhavana2025@gmail.com
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-slate-800 bg-slate-950 py-6">
+
+    <div class="max-w-6xl mx-auto px-6 text-center">
+
+      <p class="text-slate-400 text-sm">
+        © 2026 Bhavana Gattu · DevOps Engineer
+      </p>
+
+      <p class="text-slate-600 text-xs mt-2">
+        Built with HTML, Tailwind CSS & deployed with GitHub Pages
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= SMOOTH SCROLL ================= -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+
+        const target = document.querySelector(this.getAttribute("href"));
+
+        if (target) {
+          e.preventDefault();
+
+          target.scrollIntoView({
+            behavior: "smooth"
+          });
+        }
+
+      });
+    });
+  </script>
+
+</body>
+</html>
+```
